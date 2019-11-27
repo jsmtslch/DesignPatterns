@@ -1,0 +1,19 @@
+It is all about the Command that matters in this pattern. Not the client. Not the Server.
+We only try to design Command in such a way that it is generic. We code Command for interface not implementation.
+Command is the interface with one method, execute(). The concrete command classes(LightOnCommand) have reference to objects(Light) on which we can perform actions.
+One invoker(SimpleRemote) is present which helps client to execute command as required.
+Client will tell the actual command that it want to execute.
+
+
+Notice that the remote control doesn’t know anything about turning on the stereo. 
+That information is contained in a separate command object. This reduces the coupling between them.
+
+-------------------------------------------------------------------------------------------
+Advantages:
+
+Makes our code extensible as we can add new commands without changing existing code.
+Reduces coupling the invoker and receiver of a command.
+-------------------------------------------------------------------------------------------
+Disadvantages:
+
+Increase in the number of classes for each individual command
