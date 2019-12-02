@@ -1,0 +1,6 @@
+This adds new behavior to exiting code at run time without changing the code. This is useful in adhering to Single Responsibility Principle 
+as classes are divided based upon the area of concern.
+
+Where is it useful?
+In case you want to add or remove behavior to the code
+Alternative to subclassing for extending functionality. 
