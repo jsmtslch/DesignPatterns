@@ -3,4 +3,10 @@ as classes are divided based upon the area of concern.
 
 Where is it useful?
 In case you want to add or remove behavior to the code
-Alternative to subclassing for extending functionality. 
+Alternative to sub-classing for extending functionality. 
+
+Here in this example:
+Beverage is the Abstract class which can be extended by any drink that you want to make.
+House Blend is one such drink.
+Whip is more of a condiment rather than a Beverage itself but it can be combined with a drink and the resulting object is still a beverage.
+Now because whip is always on top of some beverage, we have to hold the reference to the beverage on top of which it is applied.
