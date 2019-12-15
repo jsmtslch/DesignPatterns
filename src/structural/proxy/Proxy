@@ -1,0 +1,3 @@
+When we want a simplified version of a complex or heavy object.
+When the original object is present in different address space, and we want to represent it locally
+When we want to add a layer of security to the original underlying object to provide controlled access based on access rights of the client
