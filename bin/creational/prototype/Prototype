@@ -1,0 +1,4 @@
+WHen Object creation is complicated and need many resources, use Prototype.
+It mandates that the object itself should be responsible for cloning itself and any other
+class outside.
+There is a simple implementation and then there is Registry implementation.
