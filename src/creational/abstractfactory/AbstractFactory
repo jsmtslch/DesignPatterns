@@ -1,0 +1,17 @@
+Adaptation from: https://airbrake.io/blog/design-patterns/abstract-factory
+For example, imagine we have two authors, Edgar Allan Poe and Charles Darwin, 
+both looking to publish their (arguably) most famous works, The Raven and 
+On the Origin of Species, respectively. Since one is a poet and the other a scientist, 
+the types of work they’ve created are quite different (poem and research paper). 
+Moreover, given those disparate types of writings, it’s unlikely that they’ll both be using 
+the same publisher. As it happens, The Raven was first published in 1845 by a periodical called
+ The American Review, while On the Origin of Species was published in 1859 by John Murray, 
+ an eclectic English publishing firm.
+
+Since different types of authors produces different kinds of writing — which are likely to 
+be published by dramatically different publishers — this is a great use of the abstract 
+factory method. To simplify our comparison, we’ll modernize the publisher types a bit and 
+use a blog for publishing poems and a scientific journal for publishing research papers. 
+If we have a poem like The Raven ready to be published, we need an appropriate type of 
+publisher for it, such as a Blog. Similarly, a scientific paper, like On the Origin of Species, 
+might require a scientific journal for publication.
