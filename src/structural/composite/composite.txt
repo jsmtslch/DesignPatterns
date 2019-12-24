@@ -1,0 +1,8 @@
+This pattern represent structure which is present with anything which has a hierarchy.
+For example, an organization has an hierarchy where a manager will have many people reporting to him.
+Manager himself is an employee just like the people who report to him.
+But in the organization, all of them share common attributes like they have salary associated with them,
+their personal details etc.
+That is why all of them implement a common interface which is referred to as Component.
+Then we have leaf nodes like developer.
+Then we have composites like the OrgComposite
