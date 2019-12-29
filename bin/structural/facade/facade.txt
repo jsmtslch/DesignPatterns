@@ -1,0 +1,1 @@
+provides simple interface to a complex subsystem so that client does not have to deal with all the subsystem components.
